@@ -1,0 +1,32 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 3em 2em;
+}
+
+.hero__copy {
+  position: relative;
+}
+
+/* .hero__copy::after {
+  content: ' \02C5';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
+
+.arrow {
+  font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  text-align: left;
+  font-size: 30vw;
+  line-height: 125%;
+}
+
+.SignUp__btn {
+  align-self: flex-end;
+  justify-self: flex-end;
+}

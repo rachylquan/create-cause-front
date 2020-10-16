@@ -1,0 +1,67 @@
+body {
+  box-sizing: border-box;
+  line-height: 1.5;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.cc-title {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.cc-title span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+section {
+  padding: 1em 1em;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+}
+
+/* helpers */
+.secondary-bg {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.right-align {
+  text-align: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+button,
+.btn {
+  outline: 0;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px 20px;
+  background-color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.full-btn {
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 10px;
+  color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.85rem;
+}

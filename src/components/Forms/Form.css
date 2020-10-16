@@ -1,0 +1,41 @@
+.SignUpForm__container,
+.Login__container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+form.SignUpForm,
+form.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55vh;
+  width: 100%;
+}
+
+form.Login {
+  height: 30vh;
+}
+
+label {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.form-sec {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  align-self: flex-end;
+}

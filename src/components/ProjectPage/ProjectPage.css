@@ -1,0 +1,35 @@
+.nonprofit__details {
+  padding-bottom: 0;
+}
+
+.nonprofit__about {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.section-header {
+  position: relative;
+}
+
+.section-header:before {
+  content: '';
+  position: absolute;
+  width: 90vw;
+  height: 1px;
+  background-color: black;
+  top: -35px;
+}
+
+.section-header.left-align:before {
+  left: -17px !important;
+}
+
+.section-header.right-align:before {
+  right: -17px !important;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}

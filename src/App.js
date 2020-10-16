@@ -12,18 +12,7 @@ import EditProject from './components/Forms/EditProject';
 import './assets/styles/base.css';
 import './App.css';
 
-import { projects, nonprofits } from './store';
-
 class App extends Component {
-  state = {
-    nonprofits: [],
-    projects: [],
-  };
-
-  componentDidMount() {
-    this.setState({ projects, nonprofits });
-  }
-
   render() {
     return (
       <div className="App">

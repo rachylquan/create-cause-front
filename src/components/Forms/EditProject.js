@@ -27,7 +27,7 @@ class EditProject extends Component {
     };
     return (
       <section className="EditProject">
-        <Link to="/nonprofit/:nonprofitId">
+        <Link to="/charity/:charityId">
           <span>&#8592; &ensp;</span>Cancel
         </Link>
         <h2>Project Details:</h2>

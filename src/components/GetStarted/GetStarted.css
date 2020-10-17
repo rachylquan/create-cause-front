@@ -1,0 +1,9 @@
+.GetStarted {
+  display: flex;
+  flex-direction: column;
+}
+
+.GetStarted button {
+  width: 100%;
+  margin-bottom: 20px;
+}

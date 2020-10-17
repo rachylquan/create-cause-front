@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Hero from '../Hero/Hero';
-import ProjectList from '../ProjectList/ProjectList';
+import HowItWorks from './HowItWorks';
 
-class ProjectListPage extends Component {
+class Landing extends Component {
   render() {
     return (
       <>
         <Hero />
-        <ProjectList />
+        <HowItWorks />
       </>
     );
   }
 }
 
-export default ProjectListPage;
+export default Landing;

@@ -1,4 +1,4 @@
-export const nonprofit = {
+export const charity = {
   id: 1,
   name: 'Charity 1',
   email: 'charity@charity.org',

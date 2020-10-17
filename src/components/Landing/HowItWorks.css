@@ -1,0 +1,25 @@
+.howItWorks {
+  padding-top: 50px;
+}
+
+.howItWorks__title {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.arrow {
+  position: relative;
+  text-align: center;
+}
+
+.arrow:before {
+  content: '';
+  position: absolute;
+  height: 222px;
+  background-color: black;
+  width: 2px;
+  top: -200px;
+  left: 7px;
+}

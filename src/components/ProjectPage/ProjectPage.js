@@ -10,24 +10,22 @@ class ProjectPage extends Component {
       <>
         <section className="ProjectBanner secondary-bg">
           <button onClick={() => this.props.history.goBack()}>Back</button>
-          <h1>{project.nonprofit.name}</h1>
+          <h1>{project.charity.name}</h1>
         </section>
 
         <section className="contact-btn full-btn center-align">
-          <a href={'mailto:' + project.nonprofit.email}>Apply</a>
+          <a href={'mailto:' + project.charity.email}>Apply</a>
         </section>
 
-        <section className="nonprofit__details">
-          <div className="nonprofit__links">
+        <section className="charity__details">
+          <div className="charity__links">
             <p>
-              <a href={project.nonprofit.website}>
-                {project.nonprofit.website}
-              </a>
+              <a href={project.charity.website}>{project.charity.website}</a>
             </p>
           </div>
-          <div className="nonprofit__about">
+          <div className="charity__about">
             <h2 className="section-header right-align">About</h2>
-            <p>{project.nonprofit.about}</p>
+            <p>{project.charity.about}</p>
           </div>
         </section>
 
@@ -55,7 +53,7 @@ class ProjectPage extends Component {
           <p className="right-align">
             <a
               className="btn apply-btn"
-              href={'mailto:' + project.nonprofit.email}
+              href={'mailto:' + project.charity.email}
             >
               Apply
             </a>

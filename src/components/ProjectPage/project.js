@@ -1,6 +1,6 @@
 export const project = {
   id: 1,
-  nonprofit: {
+  charity: {
     id: 1,
     name: 'Charity 1',
     email: 'charity@charity.org',

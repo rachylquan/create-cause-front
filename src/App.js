@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav/nav.js';
-import ProjectListPage from './components/Landing/Landing';
+import Landing from './components/Landing/Landing';
+import GetStarted from './components/GetStarted/GetStarted';
+import ProjectListPage from './components/ProjectListPage/ProjectListPage';
 import CreateProjectForm from './components/CreateProjectForm/CreateProjectForm';
 import SignUpForm from './components/Forms/SignUpForm';
 import ProfilePage from './components/ProfilePage/ProfilePage';
@@ -18,15 +20,17 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Switch>
-          <Route exact path="/" component={ProjectListPage} />
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/get-started" component={GetStarted} />
           <Route exact path="/signup" component={SignUpForm} />
+          <Route exact path="/projects" component={ProjectListPage} />
           <Route exact path="/login" component={Login} />
-          <Route exact path="/nonprofit/:nonprofitId" component={ProfilePage} />
+          <Route exact path="/charity/:charityId" component={ProfilePage} />
           <Route exact path="/create-project" component={CreateProjectForm} />
           <Route exact path="/project/:projectId" component={ProjectPage} />
           <Route
             exact
-            path="/edit/nonprofit/:nonprofitId"
+            path="/edit/charity/:charityId"
             component={EditProfile}
           />
           <Route

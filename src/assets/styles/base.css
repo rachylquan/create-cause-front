@@ -52,6 +52,12 @@ button,
   font-weight: bold;
 }
 
+.Back__btn {
+  border: 0;
+  text-align: left;
+  background: transparent;
+}
+
 .full-btn {
   background-color: rgba(0, 0, 0, 0.08);
   padding: 10px;

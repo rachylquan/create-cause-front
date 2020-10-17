@@ -13,13 +13,12 @@ class Hero extends Component {
           <br />
           Cause
         </h1>
+        <h2>Welcome</h2>
         <p className="hero__copy">
-          Create for a Cause connects nonprofits with creatives to who want to
-          volunteer their expertees.
+          We connect charities with creatives in an effort to do some good.
         </p>
-        <span className="arrow"></span>
-        <Link to="/signup" className="SignUp__btn">
-          <button>Sign Up</button>
+        <Link to="/get-started" className="GetStarted__btn">
+          <button>Get Started</button>
         </Link>
       </section>
     );

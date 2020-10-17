@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    nonprofit: {
+    charity: {
       id: 1,
       name: 'Charity 1',
       email: 'charity@charity.org',
@@ -21,7 +21,7 @@ export const projects = [
 
   {
     id: 2,
-    nonprofit: {
+    charity: {
       id: 2,
       name: 'Charity 2',
       email: 'charity@charity.org',
@@ -40,7 +40,7 @@ export const projects = [
   },
   {
     id: 3,
-    nonprofit: {
+    charity: {
       id: 1,
       name: 'Charity 1',
       email: 'charity@charity.org',

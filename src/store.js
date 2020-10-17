@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    nonprofit_id: 1,
+    charity_id: 1,
     type: 'website',
     deadline: '1/2/2020',
     deadline_flexibility: 'flexible',
@@ -10,7 +10,7 @@ const projects = [
 
   {
     id: 2,
-    nonprofit_id: 2,
+    charity_id: 2,
     type: 'website',
     deadline: '1/2/2020',
     deadline_flexibility: 'flexible',
@@ -18,7 +18,7 @@ const projects = [
   },
   {
     id: 3,
-    nonprofit_id: 1,
+    charity_id: 1,
     type: 'website',
     deadline: '1/2/2020',
     deadline_flexibility: 'flexible',
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     id: 4,
-    nonprofit_id: 2,
+    charity_id: 2,
     type: 'website',
     deadline: '1/2/2020',
     deadline_flexibility: 'flexible',
@@ -34,7 +34,7 @@ const projects = [
   },
 ];
 
-const nonprofits = [
+const charities = [
   {
     id: 1,
     name: 'Charity 1',
@@ -59,4 +59,4 @@ const nonprofits = [
   },
 ];
 
-module.exports = { projects, nonprofits };
+module.exports = { projects, charities };

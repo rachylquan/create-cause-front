@@ -18,7 +18,7 @@ class EditProfile extends Component {
     this.props.history.goBack();
   };
   render() {
-    const nonprofit = {
+    const charity = {
       id: 1,
       name: 'Charity 1',
       email: 'charity@charity.org',
@@ -48,18 +48,18 @@ class EditProfile extends Component {
     };
     return (
       <section className="EditProfile">
-        <Link to="/nonprofit/:nonprofitId">
+        <Link to="/charity/:charityId">
           <span>&#8592; &ensp;</span>Cancel
         </Link>
         <h2>Profile Details</h2>
         <form className="EditProfile__form">
           <div className="form-sec">
-            <label htmlFor="name">Nonprofit Name</label>
+            <label htmlFor="name">Charity Name</label>
             <input
               name="name"
               type="text"
               id="name"
-              placeholder={nonprofit.name}
+              placeholder={charity.name}
               required
               onChange={(event) => this.handleChange(event)}
             />
@@ -71,7 +71,7 @@ class EditProfile extends Component {
               name="website"
               type="website"
               id="website"
-              placeholder={nonprofit.website}
+              placeholder={charity.website}
               required
               onChange={(event) => this.handleChange(event)}
             />
@@ -83,7 +83,7 @@ class EditProfile extends Component {
               id="about"
               name="about"
               onChange={(event) => this.handleChange(event)}
-              placeholder={nonprofit.about}
+              placeholder={charity.about}
             ></textarea>
           </div>
 

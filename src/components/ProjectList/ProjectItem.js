@@ -7,7 +7,7 @@ class ProjectItem extends Component {
 
     return (
       <div className="ProjectItem">
-        <h2>{project.nonprofit.name}</h2>
+        <h2>{project.charity.name}</h2>
         <p>
           <i>{project.type}</i>
           <br />

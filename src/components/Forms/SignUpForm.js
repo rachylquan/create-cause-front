@@ -17,23 +17,26 @@ class SignUpForm extends Component {
 
   handleSignUp(event) {
     event.preventDefault();
-    this.props.history.push(`/nonprofit/1`);
+    this.props.history.push(`/charity/1`);
   }
 
   render() {
     return (
       <section className="SignUpForm__container secondary-bg">
-        <Link to="/">
+        <button
+          className="Back__btn"
+          onClick={() => this.props.history.goBack()}
+        >
           <span>&#8592; &ensp;</span>Cancel
-        </Link>
+        </button>
         <h1 className="center-align">
-          <b>Nonprofit</b>
+          <b>Charity</b>
           <br />
           Sign Up
         </h1>
         <form className="SignUpForm">
           <div className="form-sec">
-            <label htmlFor="name">Nonprofit Name</label>
+            <label htmlFor="name">Charity Name</label>
             <input
               name="name"
               type="text"
